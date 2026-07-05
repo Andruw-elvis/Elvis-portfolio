@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Elvis Signature Preloader</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+  FONT NOTE:
+  "Vivaldi" is a commercial script font (not hosted on Google Fonts).
+  It's referenced by name in preloader.css — if it's installed on the
+  visitor's machine OR you host the real font file yourself (see the
+  @font-face block in preloader.css), it will be used automatically.
+  A close, free fallback ("Mrs Saint Delafield") is loaded below from
+  Google Fonts so the preview always looks right even without it.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="preloader.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="signature-wrap" id="sigWrap">
+      <svg class="signature-svg" viewBox="0 0 520 220" xmlns="http://www.w3.org/2000/svg">
+        <text x="50%" y="130" text-anchor="middle" class="sig-text">Elvis</text>
+        <path class="sig-underline" d="M 90 165 C 180 190, 340 190, 430 160" />
+      </svg>
+    </div>
+
+    <div class="progress-block">
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-readout">
+        <span>Loading</span>
+        <span class="progress-percent" id="progressPercent">0%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================
+       YOUR EXISTING PORTFOLIO CONTENT GOES HERE / BELOW
+       (Remove the #site demo div once integrated into your project)
+       ========================================================== -->
+  <div id="site">
+    <p>Welcome to the portfolio.</p>
+  </div>
+
+  <script src="preloader.js"></script>
+</body>
+
+</html>
