@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+Template Name: NEO
+Template URL: https://bootstrapmade.com/NEO-free-resume-bootstrap-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
